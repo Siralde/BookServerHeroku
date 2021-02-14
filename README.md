@@ -1,16 +1,7 @@
-Para crear la base de datos utilizar:
+#### Base de datos en ATLAS:
 
-> db.createCollection("books")
-> use books
+Obtener URL del cluster y ponerla en nodemon.json (MONGO_ATLAS)
 
-Posteriormente crea otra collecion dentro de esta
+Crear la colección la base de datos: books y la colección: books. 
 
-> db.books
-
-Luego Inserta un ejemplo: 
-
-> db.books.insertOne( { name: "Book Example", description: "Book Description Example" } )
-
-Comprueba el nuevo ejemplo
-
-> db.books.find( {} )
+Añadir datos ejemplos mediante GUI de ATLAS.
